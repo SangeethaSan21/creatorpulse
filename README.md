@@ -1,4 +1,5 @@
-# CreatorPulse - Complete Project Documentation
+# CreatorPulse - AI NewsLetter Curator 
+**Complete Project Documentation**
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
