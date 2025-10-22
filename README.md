@@ -573,52 +573,6 @@ streamlit run app.py
 
 Access at `http://localhost:8501`
 
-### Production Deployment
-
-#### Option 1: Heroku
-
-```bash
-# Install Heroku CLI
-# Login
-heroku login
-
-# Create app
-heroku create creatorpulse
-
-# Set environment variables
-heroku config:set SUPABASE_URL=xxx
-heroku config:set SUPABASE_KEY=xxx
-heroku config:set GROQ_API_KEY=xxx
-# ... (add all env vars)
-
-# Create Procfile
-echo "web: streamlit run app.py --server.port=\$PORT" > Procfile
-
-# Deploy
-git push heroku main
-```
-
-#### Option 2: Railway
-
-```bash
-# Install Railway CLI
-# Login
-railway login
-
-# Initialize project
-railway init
-
-# Add environment variables via dashboard
-# Deploy
-railway up
-```
-
-#### Option 3: Render
-
-1. Push code to GitHub
-2. Connect GitHub repo to Render
-3. Add environment variables
-4. Deploy
 
 #### Background Scheduler
 
@@ -759,15 +713,8 @@ To contribute:
 4. Push to branch: `git push origin feature/amazing-feature`
 5. Open Pull Request
 
-## Support & Contact
-
-- Email: support@creatorpulse.ai
-- GitHub Issues: [project-issues]
-- Documentation: [docs-site]
-- Twitter: [@creatorpulse]
-
 ---
 
-**Last Updated**: January 2025
+**Last Updated**: October 2025
 **Version**: 1.0.0
-**Status**: Production Ready
+
